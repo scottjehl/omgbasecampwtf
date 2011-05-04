@@ -1,0 +1,16 @@
+{
+  "name": "OMG BASECAMP WTF!!",
+  "version": "1.0",
+  "description": "This adds a button to the bottom right in Basecamp message pages that'll restore your last title, and message or comment.",
+  "content_scripts": [
+    {
+      "matches": ["https://*.basecamphq.com/*"],
+      "js": ["jquery.js", "autosave.js"]
+    }
+  ],
+  "icons": { 
+  	"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
